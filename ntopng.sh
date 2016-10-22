@@ -3,12 +3,12 @@
 #At 18:00:32 Saturday 05/03/2016			       
 
 
-echo -e "Installation de ntopng-2.2:\n"
+echo -e "Installation de ntopng-2.4:\n"
 
 
-wget http://downloads.sourceforge.net/project/ntop/ntopng/ntopng-2.2.tar.gz
-tar -zxvf ntopng-2.2.tar.gz
-mv ntopng-2.2 /opt/ntopng
+wget http://downloads.sourceforge.net/project/ntop/ntopng/ntopng-2.4.tar.gz
+tar -zxvf ntopng-2.4.tar.gz
+mv ntopng-2.4 /opt/ntopng
 cd /opt/ntopng
 echo -e "Installation des dépendances:\n(Press any key to continue)"
 read ok
